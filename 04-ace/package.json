@@ -1,0 +1,13 @@
+{
+  "name": "ace",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "start": "make run"
+  },
+  "window": {
+    "icon": "images/ace-logo.png",
+    "title": "Ace demo",
+    "toolbar": false
+  }
+}
