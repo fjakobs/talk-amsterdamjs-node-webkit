@@ -1,0 +1,16 @@
+{
+  "name": "httptris",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "start": "make run"
+  },
+  "dependencies": {
+      "netutil": "*"
+  },
+  "window": {
+    "title": "HTTPtris",
+    "toolbar": true,
+    "width": 370
+  }
+}

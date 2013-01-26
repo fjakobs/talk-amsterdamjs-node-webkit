@@ -1,0 +1,13 @@
+<html>
+    <script>
+
+    var netutil = require("netutil");
+    var server = require("./server");
+
+    netutil.findFreePort(20000, 40000, "localhost", function(err, port) {
+        server.start(port);
+        location.href = "http://localhost:" + port;
+    });
+
+    </script>
+</html>
